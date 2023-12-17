@@ -1,2 +1,0 @@
-# Furniking
-My final project
