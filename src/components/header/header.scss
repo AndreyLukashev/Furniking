@@ -1,0 +1,11 @@
+@use '../../global/colors';
+
+.header {
+    display: block;
+    width: 100%;
+    height: 92px;
+    flex-shrink: 0;
+    padding-left: 135px;
+    display: flex;
+    align-items: center;
+}
