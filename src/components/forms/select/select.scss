@@ -1,0 +1,11 @@
+@use '../../../global/colors';
+
+.form-select {
+    width: 123px;
+    height: 46px;
+    border: 2px solid colors.$green;
+    cursor: pointer;
+    background-color: colors.$white;
+    outline: none;
+
+}

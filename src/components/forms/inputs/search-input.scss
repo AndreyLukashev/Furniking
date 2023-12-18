@@ -1,0 +1,15 @@
+@use '../../../global/colors';
+
+.search-input {
+    display: block;
+    width: 404px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    outline: none;
+
+}

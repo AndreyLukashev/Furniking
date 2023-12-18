@@ -1,0 +1,14 @@
+@use '../../../global/colors';
+
+.input-group {
+    display: block;
+    width: 582px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 2px solid colors.$green;
+    display: flex;
+    align-items: center;
+
+    outline: none;
+}

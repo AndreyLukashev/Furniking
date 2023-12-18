@@ -1,0 +1,11 @@
+@use '../../global/colors';
+
+.btn-search {
+    width: 55px;
+    height: 46px;
+    border: 2px solid colors.$green;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    cursor: pointer;
+    background-color: colors.$green;
+}
