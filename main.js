@@ -9,3 +9,4 @@ import './src/components/grid/grid.js';
 import './src/components/forms/inputs/search-input.js';
 import './src/components/button/button.js';
 import './src/components/forms/select/select.js';
+import './src/components/navigation/navigation.js';

@@ -1,0 +1,32 @@
+@use '../../global/colors.scss';
+
+.navigation {
+    display: block;
+    width: 100%;
+    height: 67px;
+    flex-shrink: 0;
+    padding-left: 135px;
+    display: flex;
+    align-items: center;
+    // background-color: aquamarine;
+}
+
+.all-colections {
+    width: 260px;
+    height: 67px;
+    flex-shrink: 0;
+    margin-right: 82px;
+    background-color: colors.$green;
+}
+
+.main-menu-elements {
+    color: colors.$black;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 62px;
+    text-decoration: none;
+
+}
