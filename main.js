@@ -10,3 +10,5 @@ import './src/components/forms/inputs/search-input.js';
 import './src/components/button/button.js';
 import './src/components/forms/select/select.js';
 import './src/components/navigation/navigation.js';
+import './src/components/main/main.js';
+import './src/components/side-bar/side-bar.js';

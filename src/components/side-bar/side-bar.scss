@@ -1,0 +1,27 @@
+@use '../../global/colors.scss';
+
+.side-bar {
+    width: 260px;
+    height: 454px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 17px;
+
+}
+
+.side-bar-elements {
+    margin-left: 29px;
+}
+
+.side-bar-line {
+    width: 260px;
+    height: 0.8px;
+    color: colors.$side-bar-line;
+}
+
+.side-bar-link {
+    text-decoration: none;
+}

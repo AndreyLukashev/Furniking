@@ -1,0 +1,12 @@
+@use '../../global/colors.scss';
+
+.main {
+    width: 1170px;
+    height: 454px;
+    margin-left: 135px;
+    flex-shrink: 0;
+    // background-color: aquamarine;
+    display: flex;
+    align-items: center;
+
+}
