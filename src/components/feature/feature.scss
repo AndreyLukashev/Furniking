@@ -1,0 +1,31 @@
+@use '../../global/colors';
+
+.feature {
+    width: 1172px;
+    height: 58px;
+    flex-shrink: 0;
+    margin-left: 135px;
+    display: flex;
+    // background-color: aquamarine;
+}
+
+.feature-elements {
+    width: 224px;
+    height: 58px;
+    flex-shrink: 0;
+    display: flex;
+    margin-right: 115px;
+    // background-color: coral;
+}
+
+.feature-image {
+    width: 58px;
+    height: 58px;
+    flex-shrink: 0;
+    margin-right: 15px;
+}
+
+.feature-info {
+    width: 151px;
+    height: 50px;
+}

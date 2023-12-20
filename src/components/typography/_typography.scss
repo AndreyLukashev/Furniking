@@ -38,3 +38,21 @@
     line-height: normal;
     letter-spacing: 0.28px;
 }
+
+.feature-text-1 {
+    font-family: Rubik;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    color: colors.$black;
+}
+
+.feature-text-2 {
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    color: colors.$black200;
+}

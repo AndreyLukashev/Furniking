@@ -12,3 +12,4 @@ import './src/components/forms/select/select.js';
 import './src/components/navigation/navigation.js';
 import './src/components/main/main.js';
 import './src/components/side-bar/side-bar.js';
+import './src/components/feature/feature.js';
