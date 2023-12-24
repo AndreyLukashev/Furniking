@@ -1,21 +1,18 @@
 @use '../../global/colors';
 
 .feature {
+    display: flex;
     width: 1172px;
     height: 58px;
     flex-shrink: 0;
-    margin-left: 135px;
-    display: flex;
-    // background-color: aquamarine;
+    margin-bottom: 50px;
 }
 
 .feature-elements {
-    width: 224px;
+    width: 313px;
     height: 58px;
     flex-shrink: 0;
     display: flex;
-    margin-right: 115px;
-    // background-color: coral;
 }
 
 .feature-image {

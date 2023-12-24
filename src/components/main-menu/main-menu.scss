@@ -1,0 +1,10 @@
+@use '../../global/colors.scss';
+
+.main-menu {
+    display: flex;
+    align-items: center;
+    width: 1172px;
+    height: 454px;
+    flex-shrink: 0;
+    margin-bottom: 50px;
+}

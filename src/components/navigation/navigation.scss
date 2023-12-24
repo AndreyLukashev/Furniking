@@ -1,14 +1,13 @@
 @use '../../global/colors.scss';
 
 .navigation {
-    display: block;
+    display: flex;
+    align-items: center;
     width: 100%;
     height: 67px;
     flex-shrink: 0;
     padding-left: 135px;
-    display: flex;
-    align-items: center;
-    // background-color: aquamarine;
+    background-color: colors.$gray;
 }
 
 .all-colections {

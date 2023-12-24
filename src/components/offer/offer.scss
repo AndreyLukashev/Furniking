@@ -1,0 +1,31 @@
+@use '../../global/colors.scss';
+
+.offer {
+    display: flex;
+    width: 1172px;
+    height: 511px;
+    flex-shrink: 0;
+    margin-bottom: 50px;
+}
+
+.offer-left-side {
+    width: 669px;
+    height: 511px;
+    flex-shrink: 0;
+    margin-right: 17px;
+}
+
+.offer-right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 486px;
+    height: 511px;
+    flex-shrink: 0;
+}
+
+.offer-right {
+    width: 486px;
+    height: 247px;
+    flex-shrink: 0;
+}
