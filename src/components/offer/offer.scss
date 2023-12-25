@@ -9,10 +9,22 @@
 }
 
 .offer-left-side {
+    position: relative;
     width: 669px;
     height: 511px;
     flex-shrink: 0;
     margin-right: 17px;
+}
+
+.offer-left-side-text-position {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 31px;
+
 }
 
 .offer-right-side {
@@ -22,10 +34,21 @@
     width: 486px;
     height: 511px;
     flex-shrink: 0;
+
 }
 
 .offer-right {
+    position: relative;
     width: 486px;
     height: 247px;
     flex-shrink: 0;
+
+}
+
+.offer-text-btn {
+    border: none;
+    padding-left: 0;
+    width: fit-content;
+    background-color: transparent;
+
 }

@@ -41,8 +41,30 @@
 
 
 .trending-product-card {
+    position: relative;
     width: 270px;
+}
 
+.trending-product-card-new {
+    width: 44.676px;
+    height: 20.42px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 5px 0px;
+    background-color: colors.$blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.trending-product-card-sale {
+    width: 44.676px;
+    height: 20.42px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 5px 0px;
+    background-color: colors.$green;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .trending-product-card-descript {

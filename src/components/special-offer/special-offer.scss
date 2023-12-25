@@ -1,8 +1,35 @@
+@use '../../global/colors';
+
 .special-offer {
-    display: flex;
-    width: 1170px;
-    height: 354px;
+    display: block;
+    width: 1172px;
+    height: 344px;
     flex-shrink: 0;
-    margin-left: 135px;
-    background-color: yellow;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.special-offer-product {
+    display: flex;
+    width: 1172px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.special-offer-product-card {
+    display: block;
+    width: 570px;
+    height: 249px;
+    justify-content: space-between;
+}
+
+
+
+.trending {
+    display: block;
+    width: 1172px;
+    height: 1094px;
+    flex-shrink: 0;
+    // background-color: rosybrown;
+    text-align: center;
 }
